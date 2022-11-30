@@ -1,0 +1,15 @@
+http://localhost:8080/create?name=가나다&address=부산&age=20
+
+http://localhost:8080/readone?id=1
+
+http://localhost:8080/readall
+
+http://localhost:8080/delete?id=6
+
+
+
+
+UPDATE entitytb m SET m.name=:#{#member.name} WHERE m.id =:id
+
+
+http://localhost:8080/update?id=2&name=강남&address=여의도&age=999

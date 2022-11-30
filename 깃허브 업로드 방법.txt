@@ -1,0 +1,32 @@
+git config --global user.name "hoseojun"
+
+git config --global user.email "stjwhg44@naver.com"
+
+rm -rf ./.git
+
+git init
+
+git add .
+
+git commit -m "."
+
+git status
+
+git remote add origin "https://github.com/hoseojun/RestAPI.git"
+git remote add origin "https://github.com/hoseojun/Userfind.git"
+git remote add Userfind "https://github.com/hoseojun/Userfind.git"
+git remote add MariaDB "https://github.com/hoseojun/MariaDB.git"
+git remote add SpringBoot "https://github.com/hoseojun/SpringBoot_test.git"
+
+git push --force --set-upstream SpringBoot master
+
+git push -u origin master
+
+git remote -v
+
+git remote update
+
+git remote rm origin
+git remote rm Userfind
+git remote rm MariaDB
+git remote rm SpringBoot
